@@ -1,0 +1,43 @@
+*{
+    text-align:center;
+}
+body{
+    background-color: #ffffff;
+}
+#title{
+    color:black;
+}
+h3{
+    color:black;
+}
+#conversor{
+    color:black;
+    justify-items: center;
+    text-align:center;
+    
+}
+#divNumero{
+    padding:1%;
+}
+#lblNumero{
+    font-weight: bold;
+}
+#numero{
+    margin-top:1%;
+}
+#divResposta{
+    padding:1%;
+}
+#lblResposta{
+    font-weight: bold;
+
+}
+#resposta{
+    margin-top:1%;
+}
+#botao{
+    margin:3%;
+}
+#hResposta{
+    color:black;
+}
