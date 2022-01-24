@@ -43,8 +43,8 @@
     })*/
 let botao = document.querySelector("#botao")
 botao.addEventListener("click", function(){
-    let text = document.querySelector("#text")
+    let text = document.querySelector("#text").value
     let resposta = document.querySelector("#resposta")
-    let formatacao = text.innerHTML.replace(/\n/g, ", ")
+    let formatacao = text.replace(/\n/g, ", ")
     resposta.value=(formatacao)
 })
