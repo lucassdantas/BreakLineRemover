@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meta Separator</title>
+    <title>Break Line For Comma</title>
     <link rel ="stylesheet" href="./Style.css">
 </head>
 <body>
-    <h1 id="title"> Digite as tags que devem ser formatadas</h1>
-    <section id="formatador">
-        <div id="divTAG">
-            <label name="lblTag" id="lblTag">Digite o valor:</label>
-            <br>
-           <textarea type=text id="text">
-
-           </textarea>
-        </div>
-        <br>
-        <div id="divResposta">
-            <label id="lblResposta">Resposta:</label>
-            <br>
-            <input type="text" id="resposta" readonly>
-        </div>
-        <label id="aviso"> </label>
-        <br>
-        <button id="botao">Formatar</button>
-    </section>
+    <main>
+        <h1 id="title">Colocador de vírgula e espaço</h1>
+        <h3 id="subtitle">substitui a quebra de linha por vírgula e espaço</h3>
+        <section id="Formatador">
+            <div id="DataArea">
+                <section id="DataIN">
+                    <label name="lblText" id="lblText">Digite o texto:</label>
+                    <br>
+                   <textarea type=text id="text">
+                   </textarea>
+                </section>
+                <br>
+                <section id="DataOut">
+                    <label name="lblAnswer" id="lblAnswer">Resposta:</label>
+                    <br>
+                    <textarea type="text" id="Answer" readonly></textarea>
+                </section>
+                <label id="Advise"></label>
+                <br> 
+            </div>
+            <button id="Button">Formatar</button> 
+        </section>  
+    </main>
     <footer>
         <h2>Desenvolvido por Lucas Dantas</h2>
     </footer>

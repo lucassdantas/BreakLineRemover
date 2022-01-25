@@ -1,45 +1,29 @@
 *{
-    text-align:center;
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
 }
+/*GENERAL*/
 body{
-    background-color: #ffffff;
-    justify-items: center;
-    text-align:center;
+    height:100hv;
+    width:100vw;
 }
-#title{
-    color:black;
+/*MAIN CONTAIN*/
+main{
+    display:grid;
+    justify-content:center;
 }
-h3{
-    color:black;
+#Formatador{
+    display:grid;
+    justify-content:center;
 }
-#conversor{
-    color:black;
-    justify-items: center;
-    text-align:center;
-    
-}
-#divNumero{
-    padding:1%;
-}
-#lblNumero{
-    font-weight: bold;
-}
-#numero{
-    margin-top:1%;
-}
-#divResposta{
-    padding:1%;
-}
-#lblResposta{
-    font-weight: bold;
 
-}
-#resposta{
-    margin-top:1%;
-}
-#botao{
-    margin:3%;
-}
-#hResposta{
-    color:black;
+
+
+/*FOOTER*/
+footer{
+    display:grid;
+    justify-content:center;
+    margin-top:100vh;
+    background-color:blue;
 }
