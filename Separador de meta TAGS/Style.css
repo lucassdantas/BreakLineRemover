@@ -63,5 +63,12 @@ footer{
     display:grid;
     justify-content:center;
     margin:38vh 0 0 0;
-    background-color:gray;
+    background-color:black;
+}
+#FooterText{
+    color:rgba(255, 255, 255, 0.877);
+}
+a {
+    text-decoration:none;
+    color:rgb(17, 103, 216);
 }
