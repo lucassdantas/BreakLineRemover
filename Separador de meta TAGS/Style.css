@@ -3,27 +3,65 @@
     padding:0%;
     box-sizing:border-box;
 }
-/*GENERAL*/
+
+/*GENERAL GENERAL GENERAL GENERAL GENERAL*/
+
 body{
     height:100hv;
     width:100vw;
 }
-/*MAIN CONTAIN*/
+
+/*MAIN CONTAIN MAIN CONTAIN MAIN CONTAIN*/
+
+#DivTitle{
+    margin: 20px 0 0 0;
+}
+
 main{
     display:grid;
-    justify-content:center;
-}
-#Formatador{
-    display:grid;
-    justify-content:center;
+    text-align:center;
 }
 
+#DataArea{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin: 5vh 10vw 5vh 10vw;
+
+}
+
+#lblText{
+    color:black;
+}
+
+#Text{
+    resize:none;
+    width:40vw; 
+    height:30vh;   
+    
+}
+
+#lblAnswer{
+    color:black;
+}
+
+#Answer{
+    resize:none;
+    width:40vw; 
+    height:30vh;  
+    text-align:left;
+}
 
 
-/*FOOTER*/
+
+
+
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER*/
+
 footer{
     display:grid;
     justify-content:center;
-    margin-top:100vh;
-    background-color:blue;
+    margin:38vh 0 0 0;
+    background-color:gray;
 }
