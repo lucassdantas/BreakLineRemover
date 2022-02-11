@@ -8,29 +8,34 @@
     <link rel ="stylesheet" href="./Style.css">
 </head>
 <body>
-    <main>
+    <header>
         <div id="DivTitle">
             <h1 id="title">Colocador de vírgula e espaço</h1>
             <h3 id="subtitle">substitui a quebra de linha por vírgula e espaço</h3>
         </div>
+    </header>
+    <main>
         <section id="Formatador">
             <div id="DataArea">
-                <section id="DataIN">
-                    <label name="lblText" id="lblText">Digite o texto</label>
+                <section id="DataIn">
+                    <label name="lblText" id="lblText">INSIRA O TEXTO</label>
                     <br>
                    <textarea type="text" id="Text"></textarea>
                 </section>
-                <br>
+                
                 <section id="DataOut">
-                    <label name="lblAnswer" id="lblAnswer">Resposta</label>
+                    <label name="lblAnswer" id="lblAnswer">RESPOSTA</label>
                     <br>
                     <textarea type="text" id="Answer" readonly></textarea>
                 </section>
-                <label id="Advise"></label>
-                <br> 
             </div>
+            <div id="DivAdvise" class="hidden">
+                <label id="Advise">Mensagem</label>   
+            </div>
+            
+           
             <div id="DivButton">
-                <button id="Button">Formatar</button> 
+                <button id="Button">FORMATAR</button> 
             </div>
         </section>  
     </main>
